@@ -1,8 +1,8 @@
-PHP Time Ago
+### PHP Time Ago
 
 A lightweight PHP library that converts dates and times into human-readable relative time in Kurdish (Sorani). Supports past and future dates, including years, months, weeks, days, hours, minutes, and seconds.
 
-Features
+### Features
 
 * Simple and easy to use
 * Supports past and future dates
@@ -11,37 +11,54 @@ Features
 * Customizable output
 * Easy integration into any PHP project
 
-Requirements
+## Requirements
 
 * PHP 7.4 or higher
 
-Installation
 
-Download time-ago.php and include it in your project:
+## Installation
 
-require_once 'time-ago.php';
+1. **Clone the repository:**
 
-Usage
+   ```bash
+   git clone https://github.com/8a1wkar/REPOSITORY.git
+   ```
 
+2. **Include the library in your PHP project:**
+
+   ```php
+   require_once 'time-ago.php';
+   ```
+
+
+## Usage
+
+```php
 echo time_elapsed_string('2026-11-26 10:00:00');
+```
 
 You can also use a DateTime object:
 
+```php
 $date = new DateTime('2026-11-26 10:00:00');
 echo time_elapsed_string($date);
+```
 
-Example Output
+
+### Example Output
 
 1 day ago
+<br>
 2 hours ago
+<br>
 Just now
 
 Output depends on the current date and time.
 
-Testing
+## Testing
 
 The library includes example code for testing different dates and checking the generated relative time.
 
-License
+## License
 
 This project is licensed under the MIT License.
