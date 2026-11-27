@@ -21,7 +21,7 @@ A lightweight PHP library that converts dates and times into human-readable rela
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/8a1wkar/REPOSITORY.git
+   git clone https://github.com/8a1wkar/PHP-time-ago.git
    ```
 
 2. **Include the library in your PHP project:**
