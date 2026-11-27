@@ -13,7 +13,7 @@ A lightweight PHP library that converts dates and times into human-readable rela
 
 ## Requirements
 
-* PHP 7.4 or higher
+* PHP 7.4 or higher (including PHP 8.x)
 
 
 ## Installation
@@ -47,8 +47,8 @@ echo time_elapsed_string($date);
 
 ### Example Output
 
-1 day ago
-2 hours ago
+1 day ago  
+2 hours ago  
 Just now
 
 Output depends on the current date and time.
