@@ -47,9 +47,11 @@ echo time_elapsed_string($date);
 
 ### Example Output
 
-1 day ago  
-2 hours ago  
-Just now
+1 ڕۆژ پێش ئێستا
+<br>
+2 کاتژمێر پێش ئێستا
+<br>
+هەر ئێستا
 
 Output depends on the current date and time.
 
