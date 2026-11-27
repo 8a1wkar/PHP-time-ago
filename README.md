@@ -48,9 +48,11 @@ echo time_elapsed_string($date);
 ### Example Output
 
 1 day ago
-<br>
+
+
 2 hours ago
-<br>
+
+
 Just now
 
 Output depends on the current date and time.
